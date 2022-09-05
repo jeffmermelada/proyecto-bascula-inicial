@@ -1,0 +1,89 @@
+#about{
+	color: white;
+	background-color: #23572C;
+	padding: 20px 50px 20px 0px;
+}
+
+#about .caja-redes{
+	color: white;
+	background-color: #23572C;
+	margin: 20px 0px 20px 50px;
+	border-top: solid 5px;
+}
+
+
+.contenedor{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.caja{
+	margin: 0 0 0 50px;
+	width: 33%;
+}
+
+.caja li a{
+	text-decoration: none;
+	color: white;
+}
+
+.caja-redes{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.social-icons{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+
+.social-icons li {
+  display:inline-block;
+  padding: 5px;
+}
+
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:25px;
+  display:inline-block;
+  padding: 20px;
+  text-align:center;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover{
+  color:#fff;
+  background-color:#29aafe
+}
+
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    font-weight:600
+  }
+}

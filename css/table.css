@@ -1,0 +1,95 @@
+
+/* TABLA CON VALORES */
+table, td, th, tr, caption {  
+  border: 0px solid #ddd;
+  text-align: left;
+  border-color: black;
+  border-top: 0px;
+  text-align: center;
+}
+
+.valor{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+caption{
+	background-color: green;
+	color: white;
+	border: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th, td, caption {
+  padding: 15px; 
+}
+
+.valor-material{
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  text-align: center;
+}
+
+.material-select{
+  display: block;
+  font-size: 16px;
+  padding: 20px;
+  border: none !important;
+  margin: 0;
+  width:100%;
+  cursor: pointer;
+}
+
+.precios_referenciales{
+  background-color: white;
+  padding: 5px;
+}
+
+.precios_referenciales td{
+  width: 50%;
+}
+
+.precios_referenciales tr td, th{
+  padding: 5px;
+}
+
+.separador{
+  border-right: black solid 1px;
+}
+
+.abajo{
+  border-bottom: solid black 1px ;
+}
+
+.precios_referenciales .aviso{
+  border-top: solid black 1px;
+  border-radius: 10px;
+}
+
+.boton-administrar{
+  text-align: center;
+}
+
+.rojo{
+  background-color: #900606;
+  box-shadow: 0px 5px 0px 0px #5D0000;
+  text-decoration: none;
+}
+
+.rojo:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+  text-decoration: none;
+}
+
+.rojo:hover {
+  background-color: #B92424;
+  color: white;
+  text-decoration: none;
+}

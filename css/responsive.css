@@ -1,0 +1,91 @@
+/*EFECTO RESPONSIVE*/
+@media (max-width: 425px){
+  *{
+    font-size: 9px;
+    /*text-align: left;*/
+  }
+
+  .formulario{
+    padding: 10px 10px 10px 10px;
+
+  }
+
+  .logo{
+    visibility: hidden;
+  }
+
+  .titulos{
+    height: fit-content;
+    display: block;
+    padding: 0;
+    align-items: center;
+
+  } 
+
+  .titulos h1{
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  #nav ul{
+    display: block;
+    font-size: 15px;  
+    padding: 0;
+    align-content: center;
+    text-align: center;
+  }
+
+  #nav #menu{
+    font-size: 14px;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-home{
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+  }
+
+  table{
+    width: 100%;
+    padding: auto;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+  p, b{
+    font-size: 14px;
+  }
+
+  .valor, #valorA{
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .imagenes{
+    width: 100%;
+  }
+
+  .calculo_peso{
+    text-align: center;
+    align-content: center;
+  }
+
+  .calculo_peso h3{
+    padding: 5px 0 0 0px;
+  }
+}

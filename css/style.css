@@ -1,0 +1,273 @@
+*{
+    font-family: Louis;
+    text-decoration: none;
+}
+
+@font-face{
+
+  font-family: Louis;
+  src: url("../font/Louis George Cafe.ttf");
+  text-decoration: none;
+}
+
+
+body {
+  background: #DEEEDD;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* TABLA CON VALORES */
+table, td, th, tr, caption {  
+  border: 0px solid #ddd;
+  text-align: left;
+  border-color: black;
+  border-top: 0px;
+  text-align: center;
+}
+
+.valor{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+caption{
+	background-color: green;
+	color: white;
+	border: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th, td, caption {
+  padding: 15px; 
+}
+
+.valor-material{
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  text-align: center;
+}
+
+.material-select{
+  display: block;
+  font-size: 16px;
+  padding: 20px;
+  border: none !important;
+  margin: 0;
+  width:100%;
+  cursor: pointer;
+}
+
+
+.calculo_peso{
+  background-color: white;
+  display: block;
+  width: 80%;
+  text-align: center;
+  align-content: center;
+}
+
+.calculo_peso h3{
+  padding: 5px 0 0 0;
+  margin: 0;
+}
+
+
+/* HEADER Y MENU */
+
+.logo{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  right: 50px;
+  height: 125px;
+  float: right;
+}
+
+#nav{
+  background-color: #006C14;
+  color: white;
+  position: relative;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  transition: hover 2s;
+}
+
+#nav ul{   
+  padding: 0%;
+  padding-left: 25px;
+  margin: 0%;
+  list-style: none;
+}
+
+#nav li {
+  display: inline-block;
+  padding: 0px;
+}
+
+#nav li:hover {
+  background: rgb(0, 121, 16);   
+}
+
+#nav #menu {
+  display: inline-block;
+  font-size: 20px;
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+
+/* FORMULARIO Y BOTONES*/
+
+.formulario {
+  display: inline-block;
+  color: white;
+  padding: 0px 50px 50px 50px;
+  width: 100%;
+  background: #00790B;
+  text-align: justify;
+}
+
+fieldset h1{
+  color: white;
+}
+
+.formulario fieldset{
+  display: flex;
+  flex-direction:column;
+}
+
+.form-column{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.form-column div{
+  width: 100%;
+}
+
+/*VERIFICADOR*/
+.verificador{
+  position: relative;
+}
+
+
+.icono{
+  color: #00B118;
+  position: absolute;
+  left: 92%;
+  top: 60%;
+  transform: translateY(-50%);
+  visibility: visible;
+}
+
+.box, textarea.box
+{
+  resize: none;
+  background: #00790B;
+  border: none;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 5px;
+  width: 95%;
+  background-color: #A6E6AB;
+  color: #5B5B5B;
+  box-shadow: 0px 5px 0px 0px #00A80D;
+  margin-bottom: 10px;
+}
+
+.precio{
+
+  box-shadow: none;
+  padding: 10px;
+  margin: 10px;
+  max-width: 90%; 
+  text-align: center;
+  display: inline;
+  color: black;
+}
+
+.boton{
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px 20px 20px 0;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+  border: none;
+}
+
+.boton:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.boton:hover {
+  background-color: #48E68B;
+}
+
+
+
+
+/* ESTILO DE PAGINA*/
+.content { 
+  display: flex;
+}
+
+form{
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: block;
+	padding: auto;
+	margin: auto;
+}
+
+.page-home{
+  display: inline-block;
+  width: auto;
+  margin: 20px 50px 20px 50px;
+  position: relative;
+  width: 50%;
+  text-align: justify;
+}
+
+.titulos{
+  font-size: 20px;
+  padding: 0px 50px 0px 50px;
+  color: white;
+  background-color: #006312;
+}
+
+.titulos h1{
+  padding: 0;
+  margin: 0;
+}
+
+.imagenes{
+  width: 75%;
+  align-content: center;
+}
